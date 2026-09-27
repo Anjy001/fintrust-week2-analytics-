@@ -1,0 +1,154 @@
+{
+ "TOT_VAL": 560477354.85,
+ "N_TX": 12000,
+ "N_CU": 1500,
+ "AVG_VAL": 46706.4462375,
+ "SUCC": 90.46666666666667,
+ "RISK": 19.6,
+ "RISK_VAL": 161783631.41000003,
+ "INTL_SHARE": 4.0,
+ "ch": [
+  {
+   "Channel": "ATM",
+   "Value": 83942354.23,
+   "RiskRate": 21.179164281625642,
+   "N": 1747
+  },
+  {
+   "Channel": "Mobile App",
+   "Value": 240104365.19,
+   "RiskRate": 19.404155233241866,
+   "N": 5102
+  },
+  {
+   "Channel": "POS",
+   "Value": 104346681.23,
+   "RiskRate": 18.34517342248224,
+   "N": 2393
+  },
+  {
+   "Channel": "USSD",
+   "Value": 42758954.26,
+   "RiskRate": 17.322834645669293,
+   "N": 889
+  },
+  {
+   "Channel": "Web",
+   "Value": 89324999.94,
+   "RiskRate": 21.34831460674157,
+   "N": 1869
+  }
+ ],
+ "tp": [
+  {
+   "Transaction_Type": "Airtime/Data",
+   "Value": 9776171.19,
+   "RiskRate": 15.18987341772152,
+   "N": 1185
+  },
+  {
+   "Transaction_Type": "Bill Payment",
+   "Value": 28163647.51,
+   "RiskRate": 12.8135593220339,
+   "N": 1475
+  },
+  {
+   "Transaction_Type": "Card Purchase",
+   "Value": 85863413.78,
+   "RiskRate": 13.0234091658424,
+   "N": 3033
+  },
+  {
+   "Transaction_Type": "Cash Withdrawal",
+   "Value": 67772362.11,
+   "RiskRate": 25.314685314685313,
+   "N": 1430
+  },
+  {
+   "Transaction_Type": "Deposit",
+   "Value": 130985059.85,
+   "RiskRate": 16.189759036144576,
+   "N": 1328
+  },
+  {
+   "Transaction_Type": "Transfer",
+   "Value": 237916700.41,
+   "RiskRate": 28.48689771766695,
+   "N": 3549
+  }
+ ],
+ "intl": [
+  {
+   "IsIntl": false,
+   "Value": 540481570.98,
+   "RiskRate": 18.880208333333336,
+   "N": 11520
+  },
+  {
+   "IsIntl": true,
+   "Value": 19995783.87,
+   "RiskRate": 36.875,
+   "N": 480
+  }
+ ],
+ "st": [
+  {
+   "Transaction_Status": "Failed",
+   "Count": 630
+  },
+  {
+   "Transaction_Status": "Pending",
+   "Count": 188
+  },
+  {
+   "Transaction_Status": "Reversed",
+   "Count": 326
+  },
+  {
+   "Transaction_Status": "Successful",
+   "Count": 10856
+  }
+ ],
+ "sg": [
+  {
+   "_seg": "Everyday",
+   "Value": 261458920.99,
+   "N": 5644
+  },
+  {
+   "_seg": "Premium",
+   "Value": 107751195.82,
+   "N": 2361
+  },
+  {
+   "_seg": "SME",
+   "Value": 83791371.71,
+   "N": 1706
+  },
+  {
+   "_seg": "Student",
+   "Value": 107475866.33,
+   "N": 2289
+  }
+ ],
+ "m": [
+  {
+   "_month": "2026-01",
+   "Value": 188489434.69,
+   "RiskRate": 18.53375272199371,
+   "N": 4133
+  },
+  {
+   "_month": "2026-02",
+   "Value": 175786896.99,
+   "RiskRate": 20.273165506159614,
+   "N": 3734
+  },
+  {
+   "_month": "2026-03",
+   "Value": 196201023.17,
+   "RiskRate": 20.058069199128962,
+   "N": 4133
+  }
+ ]
+}
